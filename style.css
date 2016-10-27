@@ -8,7 +8,7 @@ body {
   background: #fff no-repeat;
   font-family: 'Shadows Into Light', cursive;
 }
-
+/* Posicion del menú */
 #navigationMenu li{
 	height: 50px;
 	padding: 2px;
@@ -42,7 +42,7 @@ body {
 #navigationMenu a{
   /*cuadrado*/
 	height: 30px;
-	width: 100px;
+	width: 150px;
 	display: block;
 	position: relative;
   /* Texto */
