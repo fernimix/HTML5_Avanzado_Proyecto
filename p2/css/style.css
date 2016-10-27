@@ -1,0 +1,26 @@
+body {
+	padding: 50px;
+}
+
+h2 { 
+  font-size: 25px; 
+  text-align: left;
+  color: #e74c3c;
+  margin-left: 28px;
+  padding-bottom: 0px;
+  } 
+
+img {
+  float: left;
+  clear: both;
+  display: block;
+}
+
+div img {
+  
+  width: 25%;
+  height: 25%;
+  border-style: solid;
+  border-color: #e74c3c;
+}
+
