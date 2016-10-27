@@ -1,8 +1,97 @@
 
 body {
-	font-size:14px;
+  font-size:14px;
   margin: 0px;
   padding: 0px;
   background: #e74c3c;
   font-family: 'Shadows Into Light', cursive;
+}
+
+#navigationMenu li{
+	height: 50px;
+	padding: 2px;
+	width: 50px;
+  	display: inline;
+  	list-style: none;
+}
+
+#navigationMenu span{
+	/* Container properties */
+	width:0px;
+	top:20px;
+  left: -20px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+
+	/* Text properties */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;
+
+	/* CSS3 Transition: */
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#navigationMenu a{
+  /*cuadrado*/
+	height:30px;
+	width:100px;
+	display:block;
+	position:relative;
+  /* Texto */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:33px;
+  	text-align: center;
+}
+
+/* Estilos del hover */
+
+#navigationMenu a:hover span { 
+  width:auto; 
+  padding:0 20px;
+  overflow:visible; 
+  }
+#navigationMenu a:hover{
+	text-decoration:none;
+	-moz-box-shadow:0 0 5px #9ddff5;
+	-webkit-box-shadow:0 0 5px #9ddff5;
+	box-shadow:0 0 5px #9ddff5;
+}
+
+/* Red Button */
+#navigationMenu .p1 { 
+  background-color: #F22613;
+  border-color: #F22613;
+}
+
+#navigationMenu .p1 { background-position:0 0;}
+#navigationMenu .p1:hover { background-position:0 -39px;}
+#navigationMenu .p1 span{
+	background-color:#F22613;
+	color:#3d4f0c;
+	text-shadow:1px 1px 0 #D64541;
+}
+
+/* Green Button */
+#navigationMenu .p2 { 
+  background-color:#7da315;
+  border-color:#7da315;
+}
+
+#navigationMenu .p2 {	background-position:0 0;}
+#navigationMenu .p2:hover { background-position:0 -39px;}
+#navigationMenu .p2 span{
+	background-color:#7da315;
+	color:#3d4f0c;
+	text-shadow:1px 1px 0 #99bf31;
 }
