@@ -98,7 +98,7 @@ body {
 	text-shadow:1px 1px 0 #99bf31;
 }
 
-#main{
+#main {
 	margin:80px auto;
 	position:relative;
 	width:40px;
@@ -112,19 +112,18 @@ h1{
 	text-align:center;
 }
 
-h2{
+h2 {
 	font-weight:normal;
 	text-align:center;
 }
 
 h1,h2{
-font-family: 'Shadows Into Light', cursive;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 h4 {
 	color:#000;
 	font-size: 20px;
-  
 	font-weight:normal;
 	text-align:center;
 }
