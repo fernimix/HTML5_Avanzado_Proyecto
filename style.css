@@ -1,8 +1,10 @@
+{
+	margin:0;
+	padding:0;
+}
 
 body {
   font-size:14px;
-  margin: 0px;
-  padding: 0px;
   background: #e74c3c;
   font-family: 'Shadows Into Light', cursive;
 }
