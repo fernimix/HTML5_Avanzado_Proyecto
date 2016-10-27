@@ -5,28 +5,28 @@
 
 body {
   font-size:14px;
-  background: #e74c3c;
+  background: #e74c3c no-repeat;
   font-family: 'Shadows Into Light', cursive;
 }
 
 #navigationMenu li{
 	height: 50px;
 	padding: 2px;
-	width: 50px;
+	width: 100px;
   	display: inline;
   	list-style: none;
 }
 
 #navigationMenu span{
-	/* Container properties */
+/* Contenedor */
 	width:0px;
 	top:20px;
-  left: -20px;
+        left: -20px;
 	padding:0;
 	position:absolute;
 	overflow:hidden;
 
-	/* Text properties */
+	/* Texto */
 	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
 	font-size:18px;
 	font-weight:bold;
