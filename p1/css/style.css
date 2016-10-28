@@ -1,0 +1,39 @@
+@font-face { 
+  font-family:Accidental Presidency;src:local('Accidental Presidency'),url(acid.woff2) format('woff2'),url(acid.woff) format('woff'),url(acid.ttf) format('truetype') 
+}
+
+body { 
+  background: #191919;
+  color: #eee;
+  }
+
+h1 { 
+  font-size: 150px; 
+  text-align: center;
+  color: orange;
+  } 
+
+h2 {
+  font-size: 54px;
+  color: white;
+  position: absolute;
+  top: 475px;
+  width: 100%;
+  text-shadow:0 0 5px #000
+}
+/* Dos background para añadir transparencia a la caja del texto */
+h2 span {
+  color: white;
+  font: bold 24px;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0px;
+}
+.past, .future {
+  opacity:0.05!important
+}
+
+
+
+
