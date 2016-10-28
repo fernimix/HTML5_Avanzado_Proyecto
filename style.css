@@ -20,7 +20,7 @@ body {
 #navigationMenu span{
 /* Contenedor */
 	width: 0px;
-        left: -30px; /* Desplazamiento del recuadro span */
+        left: 100px; /* Desplazamiento del recuadro span */
 	top: 30px;
 	padding:0;
 	position:absolute;
