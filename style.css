@@ -20,8 +20,8 @@ body {
 #navigationMenu span{
 /* Contenedor */
 	width: 0px;
-        left: 5px; /* Desplazamiento del recuadro span */
-	top: 25px;
+        left: 0px; /* Desplazamiento del recuadro span */
+	top: 30px;
 	padding:0;
 	position:absolute;
 	overflow:hidden;
@@ -29,10 +29,10 @@ body {
 	/* Texto */
 	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
 	font-size: 18px;
-	font-weight:bold;
-	letter-spacing:0.6px;
-	white-space:nowrap;
-	line-height:39px;
+	font-weight: bold;
+	letter-spacing: 0.6px;
+	white-space: nowrap;
+	line-height: 39px;
 
 	/* CSS3 Transition: */
 	-webkit-transition: 0.25s;
@@ -99,7 +99,7 @@ body {
 }
 
 #main {
-	margin: 0px auto;
+	margin: -20px auto;
 	position: relative;
 	width: 40px;
 }
