@@ -13,7 +13,7 @@ body {
 	height: 50px;
 	padding: 2px;
 	width: 50px;
-  	display: inline;
+  	display: none;
   	list-style: none;
 }
 
@@ -99,22 +99,22 @@ body {
 }
 
 #main {
-	margin:80px auto;
-	position:relative;
-	width:40px;
+	margin: 0px auto;
+	position: relative;
+	width: 40px;
 }
 
 
 h1{
-	color:#000;
-	font-size:60px;
-	font-weight:normal;
-	text-align:center;
+	color: #000;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
 }
 
 h2 {
-	font-weight:normal;
-	text-align:center;
+	font-weight: normal;
+	text-align: center;
 }
 
 h1,h2{
