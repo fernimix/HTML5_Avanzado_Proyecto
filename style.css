@@ -21,7 +21,6 @@ body {
 /* Contenedor */
 	width: 0px;
         left: 100px; /* Desplazamiento del recuadro span */
-	top: 30px;
 	padding:0;
 	position:absolute;
 	overflow:hidden;
