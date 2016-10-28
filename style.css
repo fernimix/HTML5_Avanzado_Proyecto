@@ -13,7 +13,7 @@ body {
 	height: 50px;
 	padding: 2px;
 	width: 50px;
-  	display: none;
+  	display: inline;
   	list-style: none;
 }
 
