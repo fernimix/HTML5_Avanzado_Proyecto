@@ -20,8 +20,8 @@ body {
 #navigationMenu span{
 /* Contenedor */
 	width: 0px;
-        left: 150px; /* Desplazamiento del recuadro span */
-	top: 5px;
+        left: 20px; /* Desplazamiento del recuadro span */
+	top: 20px;
 	padding:0;
 	position:absolute;
 	overflow:hidden;
