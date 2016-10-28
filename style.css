@@ -46,6 +46,7 @@ body {
 	display: block;
 	position: relative;
 	margin: 10px;
+	margin-left: -20px;
   /* Texto */
 	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
 	font-size: 18px;
@@ -90,7 +91,7 @@ body {
   border-color: #7da315;
 }
 
-#navigationMenu .p2 {	background-position:0 0;}
+#navigationMenu .p2 { background-position:0 0;}
 #navigationMenu .p2:hover { background-position:0 -39px;}
 #navigationMenu .p2 span{
 	background-color: #7da315;
@@ -122,16 +123,16 @@ h1,h2{
 }
 
 h4 {
-	color:#000;
+	color: #000;
 	font-size: 20px;
-	font-weight:normal;
-	text-align:center;
+	font-weight: normal;
+	text-align: center;
 }
 
-a, a:visited,a:active {
-	color:#DADFE1;
-	text-decoration:none;
-	outline:none;
+a, a:visited,a: active {
+	color: #DADFE1;
+	text-decoration: none;
+	outline: none;
 }
 
 a:hover{
